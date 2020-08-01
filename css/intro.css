@@ -1,0 +1,35 @@
+#intro-text {
+	text-align: center;
+	padding-top: 100px;
+	padding-bottom: 50px;
+	font-size: 1em;
+	line-height: 1.5;
+	background-color: white;
+	border-radius: 0 0 30px 30px;
+	margin: auto;
+}
+
+#intro-list {
+	padding-top: 20px;
+	padding-bottom: 15px;
+}
+
+#intro-text ul {
+		list-style: none;
+		font-weight: bold;
+}
+
+#intro-text ul  h4{
+	padding-top: 10px;
+}
+
+#intro-images {
+	padding-top: 30px;
+	padding-bottom: 45px;
+}
+
+#intro-images img {
+	width: 250px;
+	height: 250px;
+	padding: 15px;
+}

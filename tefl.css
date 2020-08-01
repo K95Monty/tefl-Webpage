@@ -1,0 +1,20 @@
+
+@import url('css/navbar.css');
+@import url('css/intro.css');
+@import url('css/signup.css');
+@import url('css/qualify.css');
+@import url('css/testimonies.css');
+@import url('css/about.css');
+@import url('css/footer.css');
+@import url('css/containers.css');
+
+body {
+ font-family: 'Quicksand', sans-serif;
+ font-weight: 300;
+ background-color: #EA5340;
+ margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+ font-weight: 500;
+}
