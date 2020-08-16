@@ -5,3 +5,16 @@
 	height: auto;
 	padding: 20px;
 }
+
+#contact-title {
+	padding: 10px;
+	text-align: left;
+}
+
+#contact-form {
+	text-align: left;
+}
+
+#contact-form button {
+	margin-top: 8px;
+}
