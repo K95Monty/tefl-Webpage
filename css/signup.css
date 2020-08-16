@@ -1,18 +1,47 @@
 #sign-up {
 	background-color: white;
-	border-radius: 30px;
+	border-radius: 15px;
 	margin-top: 30px;
-	height: 450px;
+	height: auto;
+}
+
+
+#sign-up h2 {
+	color: #457B9D;
+	font-weight: bold;
 }
 
 #sign-up img {
-	height: 400px;
+	height: 350px;
 	width: auto;
+}
+
+#sign-up-form {
+	width: 350px;
+	height: auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#sign-up label {
+	color: rgba(29, 53, 87, 0.6);
+}
+
+#sign-up form {
+	padding-bottom: 10px; 
+}
+
+.form-control {
+	width: 60%; 
 }
 
 .form-check {
 	padding-top: 5px;
 	padding-bottom: 5px;
+}
+
+.form-check {
+	padding: 8px;
 }
 
 #sign-up button {
