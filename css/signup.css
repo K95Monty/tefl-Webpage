@@ -14,13 +14,13 @@
 #sign-up img {
 	height: 350px;
 	width: auto;
+	padding: 20px;
 }
 
 #sign-up-form {
-	width: 350px;
+	width: !350px;
 	height: auto;
-	padding-top: 20px;
-	padding-bottom: 20px;
+	padding: 20px;
 }
 
 #sign-up label {
