@@ -4,7 +4,10 @@
 @import url('css/signup.css');
 @import url('css/qualify.css');
 @import url('css/testimonies.css');
+@import url('css/facts.css');
+@import url('css/taste.css');
 @import url('css/about.css');
+@import url('css/contact.css');
 @import url('css/footer.css');
 @import url('css/containers.css');
 
@@ -12,7 +15,6 @@ body {
  font-family: 'Quicksand', sans-serif;
  font-weight: 300;
  background-color: #EA5340;
- margin: 0;
 }
 
 h1, h2, h3, h4, h5, h6 {
