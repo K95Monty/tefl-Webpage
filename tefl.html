@@ -98,37 +98,29 @@
 		<div id="sign-up" class="container">
 			<div class="row justify-content-center align-items-center">
 				<div class="col-lg-6">
-					<br>
-					<img src="images/around-the-world.png">
+					<img src="images/world.jpg">
 				</div>
 				
 				<div class="col-lg-6">
 					<div  id="sign-up-form">
-					<div class="container">
-						<div class="row justify-content-start">
-							<div class="col-lg-6">
-								<h2>Want To Get Started?</h2>
-								<p>Sign up below, and stay in the loop for all our TEFL opportunities.</p>
-								<p>We'll get in touch soon with you very soon!</p>
-								<form>
-								  <div class="form-group">
-								    <label for="exampleInputEmail1">Email address</label>
-								    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="example@email.com">
-								    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone.</small>
-								  </div>
-								  <div class="form-group">
-								    <label for="exampleInputName1">Name</label>
-								    <input type="fullname" class="form-control" id="exampleInputName1" placeholder="John Doe">
-								  </div>
-								  <div class="form-check">
-								    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-								    <label class="form-check-label" for="exampleCheck1">I'm interested to learn more and get started!</label>
-								  </div>
-								  <button type="submit" class="btn btn-info">Sign Me Up!</button>
-								</form>
+						<h2>Want To Get Started?</h2>
+						<p>Sign up below, and stay in the loop for all our TEFL opportunities.</p>
+						<p>We'll get in touch soon with you very soon!</p>
+						<form>
+							<div class="form-group">
+								<label for="InputEmail1">Email address</label>
+								<input type="email" class="form-control" id="InputEmail1" aria-describedby="emailHelp" placeholder="example@email.com">
 							</div>
+							<div class="form-group">
+								<label for="InputName1">Name</label>
+								<input type="fullname" class="form-control" id="InputName1" placeholder="John Doe">
 							</div>
-						</div>
+							<div class="form-check">
+								<input type="checkbox" class="form-check-input" id="Check1">
+								<label class="form-check-label" for="Check1">I'm interested to learn more and get started!</label>
+							</div>
+							<button type="submit" class="btn btn-info">Sign Me Up!</button>
+						</form>
 					</div>
 				</div>
 			</div>
@@ -144,7 +136,7 @@
 									<h5 class="card-title">Already Qualified?</h5>
 									<img src="images/education.png">
 									<p class="card-text">If you have a degree and want to gain a TEFL qualification</p>
-									<a href="#" class="btn btn-info">Let's get you started</a>
+									<a href="#" class="btn btn-info">Start your journey</a>
 								</div>
 							</div>	
 						</div>
@@ -154,7 +146,7 @@
 									<h5 class="card-title">Not Sure Where To Start?</h5>
 									<img src="images/world.png">
 									<p class="card-text">You don't have a degree but want to know what support we can offer</p>
-									<a href="#" class="btn btn-info">We'll help you on your way</a>
+									<a href="#" class="btn btn-info">Let's begin</a>
 								</div>
 							</div>
 						</div>
@@ -185,12 +177,12 @@
 		</div>
 
 		<div id="taste-test" style="background-image: url('images/image2.jpg'); background-repeat: no-repeat; -webkit-background-size: cover; -moz-background-size:-o-background-size: cover; background-size: cover; background-position: center;">
-				<div id="taste=overlay">
+				<div id="taste-overlay">
 					<h2>Want A Taste Test?</h2>
-					<h4>Book Now</h4>
+					<button>Book Now</button>
 				</div>
 		</div>
-		
+
 		<!-- <div id="testimonies">
 			<div class="container">
 				<h2>What Our TEFLers say</h2>
@@ -273,22 +265,25 @@
 					<div class="col-lg-10">
 						<div class="container">	
 							<div class="d-flex flex-row justify-content-center align-items-center">
-								<div class="col-lg-4">
-									<h3>Got a question? Contact us, we promise we don't bite</h3>
+								<div class="col-lg-4" id="contact-title">
+									<h3>Got a question?</h3>
+									<h5>Contact us, we promise we don't bite</h5>
 								</div>
 								<div class="col-lg-8">
-									<form>
+									<form id="contact-form">
 										<div class="form-group">
-											<label>Full Name</label>
-											<input type="text">
+											<label for="InputEmail2">Email address</label>
+											<input type="email" class="form-control" id="InputEmail2" aria-describedby="emailHelp" placeholder="example@email.com">
 										</div>
 										<div class="form-group">
-											<label>Email</label>
-											<input type="email" placeholder="Email">
+											<label for="InputName2">Name</label>
+											<input type="fullname" class="form-control" id="InputName2" placeholder="John Doe">
 										</div>
-										<label>Message</label>
-										<input type="text">
-										<button type="button">Submit</button>
+										<div class="form-group">
+    										<label for="FormControlTextarea1">Message</label>
+    										<textarea class="form-control" id="FormControlTextarea1" rows="3"></textarea>
+  										</div>
+										<button type="submit" class="btn btn-info">Submit</button>
 									</form>
 								</div>
 							</div>	
